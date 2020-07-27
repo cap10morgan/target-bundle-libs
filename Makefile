@@ -1,4 +1,4 @@
-.PHONY: install deploy
+.PHONY: install deploy test
 
 target-bundle-libs.jar: deps.edn pom.xml src/**/*
 	clojure -A:uberjar
@@ -11,3 +11,6 @@ install: target-bundle-libs.jar pom.xml
 
 deploy: target-bundle-libs.jar pom.xml
 	clojure -A:deploy
+
+test:
+	clojure -A:test:runner

@@ -54,6 +54,8 @@ When applications consume your library now (assuming you added the `:install-dep
 and `:npm-deps {}` entries to your compiler options), the CLJS compiler will see the
 `deps.cljs` and install and use your transitive JS deps.
 
+You can see an example library using this helper here: [https://github.com/cap10morgan/cljs-npm-js-example-lib](https://github.com/cap10morgan/cljs-npm-js-example-lib)
+
 ## Background
 
 For a more in-depth discussion of why this is helpful, see my [blog post about

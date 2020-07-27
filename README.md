@@ -1,5 +1,7 @@
 # target-bundle-libs
 
+[![Clojars Project](https://img.shields.io/clojars/v/com.timetraveltoaster/target-bundle-libs.svg)](https://clojars.org/com.timetraveltoaster/target-bundle-libs)
+
 A helper to generate `src/deps.cljs` files from `package.json` files. Allows
 simple, consistent ClojureScript library development with `:target :bundle`.
 

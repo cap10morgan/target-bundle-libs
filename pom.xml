@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.timetraveltoaster</groupId>
   <artifactId>target-bundle-libs</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>0.1.0</version>
   <name>target-bundle-libs</name>
   <description>Use :target :bundle in your CLJS libraries too (not just apps).</description>
   <url>https://github.com/cap10morgan/target-bundle-libs</url>
